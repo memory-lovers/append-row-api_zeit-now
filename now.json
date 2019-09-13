@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "append-api",
+  "builds": [{ "src": "**/*.js", "use": "@now/node" }],
+  "routes": [{ "src": "/append", "dest": "/" }],
+  "env": {
+    "GOOGLE_APPLICATION_CREDENTIALS": "./credential.json"
+  }
+}
